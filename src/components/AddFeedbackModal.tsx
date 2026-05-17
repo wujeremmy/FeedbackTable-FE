@@ -26,7 +26,7 @@ export default function AddFeedbackModal({
     const handleSubmit = async () => {
     if (!text.trim()) return
 
-    await fetch('feedbacktable-be-production.up.railway.app/feedback', {
+    await fetch('https://feedbacktable-be-production.up.railway.app/feedback', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json',

@@ -28,7 +28,7 @@ export default function FeedbackBoard() {
 
     const fetchFeedback = async () => {
     const res = await fetch(
-        'feedbacktable-be-production.up.railway.app/feedback',
+        'https://feedbacktable-be-production.up.railway.app/feedback',
     )
 
     const data: FeedbackData = await res.json()
