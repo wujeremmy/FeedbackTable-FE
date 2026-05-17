@@ -37,6 +37,7 @@ export default function AddFeedbackModal({
         }),
     })
 
+    
     setText('')
     setType('bingung')
 

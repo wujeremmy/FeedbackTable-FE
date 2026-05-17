@@ -31,6 +31,7 @@ export default function FeedbackBoard() {
         'https://feedbacktable-be-production.up.railway.app/feedback',
     )
 
+    
     const data: FeedbackData = await res.json()
 
     setFeedback(data)
