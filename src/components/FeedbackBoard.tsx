@@ -82,7 +82,7 @@ export default function FeedbackBoard() {
                 rounded-full"
             />
             <h1 className="text-4xl font-bold mb-8 text-center">
-            Feedback Board
+            Feedback Grid
             </h1>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
